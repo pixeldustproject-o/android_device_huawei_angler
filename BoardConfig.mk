@@ -112,6 +112,8 @@ TARGET_RECOVERY_FSTAB = device/huawei/angler/fstab.angler
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_RELEASETOOLS_EXTENSIONS := device/huawei/angler
 
+#include device/qcom/sepolicy/sepolicy.mk
+
 BOARD_SEPOLICY_DIRS += \
 	device/huawei/angler/sepolicy
 
